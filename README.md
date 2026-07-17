@@ -15,7 +15,7 @@
 > 页面下载单独提供的 `Dishonored_DOTO_Simplified_Chinese.zip`。请不要把 GitHub 自动生成的
 > `Source code (zip)` 或 `Source code (tar.gz)` 当作 MOD 安装包。
 
-`v1.0` 的全文本审校、全量测试、完整构建、独立回读与首次安装沙箱验证已经完成。
+完整简体中文译文已完成全文本审校、全量测试、完整构建、独立回读与首次安装沙箱验证。
 正式安装包已发布到本仓库的
 [Releases](https://github.com/intergra/Dishonored_DOTO_Simplified_Chinese_Translation/releases) 页面，文件名为：
 
@@ -140,7 +140,7 @@ Dishonored_DOTO_Simplified_Chinese.zip
 
 ## Package Contents / 文件内容
 
-`v1.0` 完整包固定包含 11 个文件：
+完整安装包包含 11 个文件：
 
 ```text
 Dishonored_DOTO_Simplified_Chinese/
@@ -207,6 +207,22 @@ Void Installer 当前需要 **Microsoft .NET 6 Desktop Runtime x64**。如果
 7. 打开 Steam 的“属性 → 通用 → 启动选项”，填写下方的一整行命令，并把路径替换为
    自己的实际解压路径：
 
+### 解压后的 MOD 目录
+
+![解压后的 Dishonored DOTO Simplified Chinese 文件夹](png/installation-01-extract.png)
+
+### 在 Void Installer 中选择 MOD 目录
+
+![在 Void Installer 中选择 MOD 文件夹](png/installation-02-mod-folder.png)
+
+### 在 Void Installer 中安装 MOD
+
+![在 Void Installer 中开始安装](png/installation-03-install.png)
+
+### 确认 Void Installer 安装完成
+
+![Void Installer 显示安装完成](png/installation-04-installed.png)
+
 ```text
 "你的MOD目录\Runtime\DOTORuntimeLauncher.exe" --steam-command %command%
 ```
@@ -219,6 +235,10 @@ Void Installer 当前需要 **Microsoft .NET 6 Desktop Runtime x64**。如果
 
 “你的MOD目录”必须替换为包含盘符的完整绝对路径。命令保持为一整行，路径两侧使用英文
 半角双引号。以后仍然只从 Steam 正常点击“开始游戏”，不需要填写游戏 EXE 的路径。
+
+### 设置 Steam 语言与启动选项
+
+![Steam 的游戏语言与启动选项位置](png/installation-05-steam-options.png)
 
 Steam 会先短暂运行 `DOTORuntimeLauncher.exe`。启动器验证游戏和翻译文件、挂起创建
 游戏、加载 `DOTORuntimeTranslation.dll`、等待 DLL 就绪并恢复游戏主线程；可靠交接
@@ -297,6 +317,23 @@ Steam 会先短暂运行 `DOTORuntimeLauncher.exe`。启动器验证游戏和翻
 本仓库采用[自定义使用许可](LICENSE.md)。玩家可以下载、安装并用于个人、非商业的正常
 游戏用途，也可以分享本仓库或 Release 页面的原始链接；未经许可不得重新上传、镜像
 分发、公开发布修改版或进行商业利用。明确标注的第三方内容继续遵循其各自许可证。
+
+## Support / 赞赏支持
+
+如果这个项目对您有帮助，欢迎打赏支持，您的每一份支持都是我持续更新的动力！
+
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <img src="png/donation-alipay.jpg" alt="支付宝赞赏码" width="360"><br>
+      <strong>支付宝赞赏</strong>
+    </td>
+    <td align="center" width="50%">
+      <img src="png/donation-wechat.png" alt="微信赞赏码" width="360"><br>
+      <strong>微信赞赏</strong>
+    </td>
+  </tr>
+</table>
 
 ## Troubleshooting / 故障排查
 
