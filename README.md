@@ -11,13 +11,13 @@
 ## Download / 下载
 
 > [!IMPORTANT]
-> 当前尚未创建正式 Release，也没有可供玩家安装的公开 ZIP。请不要把 GitHub 自动生成的
+> 请从本仓库的 [Releases](https://github.com/intergra/Dishonored_DOTO_Simplified_Chinese_Translation/releases)
+> 页面下载单独提供的 `Dishonored_DOTO_Simplified_Chinese.zip`。请不要把 GitHub 自动生成的
 > `Source code (zip)` 或 `Source code (tar.gz)` 当作 MOD 安装包。
 
 `v1.0` 的全文本审校、全量测试、完整构建、独立回读与首次安装沙箱验证已经完成。
-当前尚未创建正式 Release；正式安装包将发布到本仓库的
-[Releases](https://github.com/intergra/Dishonored_DOTO_Simplified_Chinese_Translation/releases) 页面，
-文件名固定为：
+正式安装包已发布到本仓库的
+[Releases](https://github.com/intergra/Dishonored_DOTO_Simplified_Chinese_Translation/releases) 页面，文件名为：
 
 ```text
 Dishonored_DOTO_Simplified_Chinese.zip
@@ -190,7 +190,7 @@ Void Installer 当前需要 **Microsoft .NET 6 Desktop Runtime x64**。如果
 ## Installation / 安装方法
 
 > [!NOTE]
-> 下列流程适用于正式 Release 发布后的完整包。当前仓库还没有可安装的公开附件。
+> 下列流程适用于本仓库 Releases 页面提供的完整包。
 
 1. 从本仓库的
    [Releases](https://github.com/intergra/Dishonored_DOTO_Simplified_Chinese_Translation/releases)
@@ -279,7 +279,6 @@ Steam 会先短暂运行 `DOTORuntimeLauncher.exe`。启动器验证游戏和翻
 - 从 Steam 启动时会短暂出现一个黑色命令行窗口，随后自动关闭；这不是闪退，也不需要
   手动关闭。
 - 运行时启动器不是常驻程序；游戏启动后在任务管理器中看不到它继续运行属于正常现象。
-- 当前正式 Release 尚未发布；正式安装包发布后会在本页顶部和 Releases 页面说明。
 
 ## Credits / 制作信息
 
