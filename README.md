@@ -6,6 +6,8 @@
 
 **高质量简体中文本地化，覆盖菜单、界面、任务、书信、日志、对白字幕与中文字体。**
 
+<img src="png/cover-simplified-chinese.png" alt="《耻辱：界外魔之死》简体中文翻译封面">
+
 </div>
 
 ## Download / 下载
